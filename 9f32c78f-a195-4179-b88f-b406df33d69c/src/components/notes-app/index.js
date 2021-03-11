@@ -37,7 +37,6 @@ function NotesApp() {
   };
 
   const showActive = () => {
-    console.log("notes", notes);
     setSortedNotes(
       [...notes].filter((n) => n.status.toLowerCase() === "active")
     );
