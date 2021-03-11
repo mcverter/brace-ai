@@ -123,24 +123,3 @@ function NotesApp() {
 }
 
 export default NotesApp;
-
-/*.sort((a, b) => {
-const aStatus = a.status.toLowerCase();
-const bStatus = b.status.toLowerCase();
-if (aStatus === bStatus) {
-    return 1;
-}
-else if (aStatus ===  "active") {
-  return -1;
-} else if (bStatus === "active") {
-  return 1;
-} else if (aStatus === "completed") {
-  return -1;
-} else if (bStatus === "completed") {
-  return 1;
-} else {
-  return 1;
-}
-})
-
- */
